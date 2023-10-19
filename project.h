@@ -28,8 +28,8 @@ int envi_command(char **args);
 /**
  * struct data_shell - Structure representing shell data
  *
- * @_environ: Pointer to an array of strings
- * @status: Integer representing the status of the shell
+ * @_projenv: pointer to an array of strings
+ * @status_proces: Integer representing the status of the shell
  */
 typedef struct data_shell
 {
